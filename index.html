@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<title>RoboIME</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="">
+<meta name="author" content="">
+
+<!-- Le styles -->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/bootstrap-responsive.min.css" rel="stylesheet">
+<style type="text/css">
+  body {
+    padding-top: 60px;
+    padding-bottom: 40px;
+  }
+  .roboime.brand {
+    padding: 0 10px 0;
+  }
+  a.roboime.brand:hover {
+    opacity: 0.7;
+  }
+  .sidebar-nav {
+    padding: 9px 0;
+  }
+  #home-carousel img {
+    width: 100%;
+  }
+</style>
+
+<!-- Le javascript -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+<!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+<!--[if lt IE 9]>
+  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+<!-- Le fav and touch icons -->
+<link rel="shortcut icon" href="ico/favicon.ico">
+<!-- TODO:
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="ico/apple-touch-icon-144-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="ico/apple-touch-icon-114-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="ico/apple-touch-icon-72-precomposed.png">
+<link rel="apple-touch-icon-precomposed" href="ico/apple-touch-icon-57-precomposed.png">
+-->
+
+<div class="navbar navbar-inverse navbar-fixed-top">
+  <div class="navbar-inner">
+    <div class="container-fluid">
+      <a class="brand roboime" href="#">
+        <svg xmlns="http://www.w3.org/2000/svg" width="144px" height="40px" viewBox="0 0 324 90">
+          <linearGradient id="grad1" gradientUnits="userSpaceOnUse" x1="162.6484" y1="66.0918" x2="162.6484" y2="-8.613">
+            <stop offset="0.205" style="stop-color:#21B0A4"/>
+            <stop offset="0.3196" style="stop-color:#5EC6BD"/>
+            <stop offset="0.4595" style="stop-color:#A3DED9"/>
+            <stop offset="0.5769" style="stop-color:#D5F0EE"/>
+            <stop offset="0.6655" style="stop-color:#F3FBFA"/>
+            <stop offset="0.715" style="stop-color:#FFFFFF"/>
+          </linearGradient>
+          <path fill-rule="evenodd" fill="url(#grad1)" d="M289.989,13.497l-21.121,12.196l10.56,6.099l10.562-6.099l11.04,5.821
+            l10.086-5.821L289.989,13.497L289.989,13.497z M24.744,25.693l-10.562,6.099l21.125,12.194V31.792L24.744,25.693L24.744,25.693z
+             M61.709,25.692L82.833,37.89l-10.562,6.096l-10.563-6.097l-10.562,6.097L40.586,37.89L61.709,25.692L61.709,25.692z
+             M109.688,25.693l-10.563,6.098V13.497l-10.562,6.136c0,8.13,0,10.125,0,18.256l10.562,6.097l10.563-6.097l10.563,6.097
+            l10.561-6.097L109.688,25.693L109.688,25.693z M157.606,25.692l21.122,12.197l-10.56,6.096l-10.562-6.097l-10.564,6.097
+            L136.48,37.89L157.606,25.692L157.606,25.692z M194.297,25.711l-10.563,6.099V19.613L194.297,25.711L194.297,25.711z
+             M199.784,25.693l10.561-6.098l21.123,12.196l21.125-12.196l10.56,6.098L242.031,37.89l0,0l-10.561,6.097L199.784,25.693z"/>
+          <linearGradient id="grad2" gradientUnits="userSpaceOnUse" x1="162.6494" y1="138.0088" x2="162.6494" y2="-37.8113">
+            <stop offset="0.345" style="stop-color:#2B8AAD"/>
+            <stop offset="0.4314" style="stop-color:#2987AA"/>
+            <stop offset="0.4988" style="stop-color:#237FA0"/>
+            <stop offset="0.5598" style="stop-color:#1A7190"/>
+            <stop offset="0.6166" style="stop-color:#0C5D78"/>
+            <stop offset="0.655" style="stop-color:#004B64"/>
+          </linearGradient>
+          <path fill-rule="evenodd" fill="url(#grad2)" d="M14.184,31.793v36.586l10.56,6.097V37.89L14.184,31.793L14.184,31.793z
+             M289.989,37.89l21.126-12.196V37.89l-21.126,12.193l-10.562-6.097v12.195l10.562,6.099l21.126-12.194V62.28l-21.126,12.195
+            L268.868,62.28V25.693l10.56,6.099l0.002,0L289.989,37.89L289.989,37.89z M252.593,31.792c0.003,0,0,39.131,0,42.684l10.56-6.097
+            V25.693L252.593,31.792L252.593,31.792z M199.782,68.379V25.693l10.563,6.099c0,14.228,0,28.457,0,42.684L199.782,68.379
+            L199.782,68.379z M183.737,31.808v42.695l10.56-6.15V25.711L183.737,31.808L183.737,31.808z M178.728,37.889L178.728,37.889
+            l-10.56,6.097v12.196l-10.562,6.099l-10.563-6.099V43.985L136.48,37.89V62.28l21.125,12.195l21.122-12.195V37.889L178.728,37.889
+            L178.728,37.889L178.728,37.889z M88.564,37.89V62.28l21.124,12.195l21.124-12.195V37.89l-10.561,6.097l-0.001,12.197
+            l-10.562,6.097l-10.563-6.097V43.986L88.564,37.89L88.564,37.89z M82.833,37.889L82.833,37.889l-10.562,6.097v12.196L61.709,62.28
+            l-10.562-6.099V43.985L40.586,37.89V62.28l21.123,12.195L82.833,62.28V37.889L82.833,37.889L82.833,37.889z"/>
+        </svg>
+      </a>
+      <div class="nav-collapse collapse">
+        <!--<p class="navbar-text pull-right">
+          Logged in as <a href="#" class="navbar-link">Username</a>
+        </p>-->
+        <ul class="nav">
+          <li class="active"><a href="#">Home</a></li>
+          <li><a href="#about">Sobre</a></li>
+          <li><a href="#contact">Contato</a></li>
+        </ul>
+      </div><!--/.nav-collapse -->
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid">
+  <div class="row-fluid">
+    <div class="span3">
+      <div class="well sidebar-nav">
+        <ul class="nav nav-list">
+          <li class="nav-header">Menu</li>
+          <li class="active"><a href="#">Home</a></li>
+          <li><a href="#">Fotos</a></li>
+          <li><a href="#">Contato</a></li>
+          <li class="nav-header">Media</li>
+          <li><a href="http://youtube.com/roboime">YouTube</a></li>
+          <li><a href="http://facebook.com/roboime">Facebook</a></li>
+        </ul>
+      </div><!--/.well -->
+    </div><!--/span-->
+    <div class="span9">
+      <div class="hero-unit">
+        <!--<h1>Hello, world!</h1>
+        <p>This is a template for a simple marketing or informational website. It includes a large callout called the hero unit and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
+        <p><a class="btn btn-primary btn-large">Learn more &raquo;</a></p>-->
+	<h2>Under Construction...</h2>
+      </div>
+    </div><!--/span-->
+  </div><!--/row-->
+
+  <hr>
+
+  <footer>
+    <p>&copy; RoboIME 2013</p>
+  </footer>
+
+</div><!--/.fluid-container-->
+
